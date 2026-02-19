@@ -1,5 +1,11 @@
 @import url(galery.css);
 
+@import url(to-do-list.css);
+
 *{
     box-sizing: border-box;
+}
+
+section{
+    padding: 20px;
 }
