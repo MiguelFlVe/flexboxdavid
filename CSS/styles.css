@@ -2,6 +2,8 @@
 
 @import url(to-do-list.css);
 
+@import url(footer.css);
+
 *{
     box-sizing: border-box;
 }
