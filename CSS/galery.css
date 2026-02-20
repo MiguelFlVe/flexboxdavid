@@ -1,0 +1,102 @@
+.galery-title{
+  text-align: center;
+  font-size: x-large;
+}
+
+.galery{
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 20px;
+}
+
+.galery__card{
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.galery__card--kyrie-7::before{
+    content: "Nike Kyrie 7";
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../Resources/descarga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-top: 100%;
+}
+
+.galery__card--low-4::before{
+    content: "Nike Kyrie Irving Low 4 n7 Sand Citron";
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../Resources/68e456c397302c976f07d216-nike-kyrie-irving-low-4-n7-sand-citron.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-top: 100%;
+}
+
+.galery__card--kyrie-5::before{
+    content: "Nike Kyrie 5 'Friends'";
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../Resources/A9631ABF-E898-47DB-83E2-F0F3CB1C5E50.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-top: 100%;
+}
+
+.galery__card--kyrie-irving-6::before{
+    content: "Nike Kyrie Irving 6";
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../Resources/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-top: 100%;
+}
+
+.galery__card--kyrie-low-4::before{
+    content: "Nike Kyrie Low 4";
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../Resources/19312531_42364463_600.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-top: 100%;
+}
+
+.galery__card--kyrie-irving-8::before{
+    content: "Nike Kyrie Irving 8";
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../Resources/images\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-top: 100%;
+}
