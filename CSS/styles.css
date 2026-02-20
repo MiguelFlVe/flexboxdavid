@@ -1,0 +1,34 @@
+@import url(galery.css);
+
+@import url(to-do-list.css);
+
+@import url(footer.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.content {
+  display: inline-flex;
+}
+
+.side-bar {
+  width: 150px;
+  padding: 20px;
+  border: 2px solid  rgb(240, 240, 240);
+  border-radius: 20px;
+  background: rgb(240, 240, 240);
+}
+
+main {
+  flex-basis: 1;
+  background: #fff;
+}
+
+section{
+    padding: 20px;
+}
